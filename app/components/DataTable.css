@@ -1,0 +1,59 @@
+.table-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .entries-select label,
+  .entries-select select {
+    font-size: 14px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+  }
+  
+  .sort-icon {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .view-btn {
+    background-color: #dff5ec;
+    color: green;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .publish-btn {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
